@@ -1,3 +1,3 @@
 window.APP_MODELS = [
-  { id: "moonshotai/kimi-k3", label: "Kimi-K3" },
+  { id: "z-ai/glm-5-3-flash", label: "glm-5-3-flash" },
 ];
