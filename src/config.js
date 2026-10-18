@@ -4,10 +4,10 @@
 // =============================
 
 // 进页面要输入的聊天密码（前端会弹窗；Worker 也会校验）—— 未定义，保持原样
-export const DEFAULT_MODEL = "moonshotai/kimi-k3";
+export const DEFAULT_MODEL = "z-ai/glm-5-3-flash";
 
 export const MODELS = [
-  { id: "moonshotai/kimi-k3", label: "Kimi-K3", persona: 1 },
+  { id: "z-ai/glm-5-3-flash", label: "glm-5-3-flash", persona: 1 },
 ];
 
 // 内置人物模板 —— 完整合并自代码1的 PROMPT_1（Pyrite）+ PROMPT_3（系统核心政策），无删减
